@@ -1,0 +1,96 @@
+/* Header Styling*/
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: #333
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.header-content h2{
+    font-size: 2rem;
+    color: #e6e6e6;
+    text-decoration: underline;
+}
+
+/* Body Styling*/
+
+body{
+    background-color:#32323c86;
+}
+
+/* I-frame Styling*/
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ifram-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.iframe-container p {
+    font-size: 1.2rem;
+    color: #e6e6e6;
+}
+
+.iframe-container a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .iframe-container {
+        padding-bottom: 75%; /* Adjusts aspect ratio for mobile */
+    }
+}
+
+footer {
+    background-color: #333;
+    padding: 30px 0;
+    color: #e6e6e6;
+}
+
+.footer-content {
+    font-size: 18px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.footer-social {
+    margin-top: 0;
+}
+
+.footer-social a {
+    color: #e6e6e6;
+    font-size: 25px;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #2b6289;
+}

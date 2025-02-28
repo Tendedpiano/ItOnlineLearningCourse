@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Embedded Content</title>
+</head>
+<body>
+    <div class="header-container">
+        <header class="header-content">
+            <h2>Our Location</h2>
+        </header>
+    </div>
+
+    <main>
+        <section class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.9642199263035!2d0.7109376720110615!3d51.35059426452647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df2b34bfee2f19%3A0x2f1c3afb6810c292!2sITonlinelearning!5e0!3m2!1sen!2suk!4v1740655581699!5m2!1sen!2suk"
+                title="itonlinelearning Location"
+                width="600"
+                height="450"
+                loading="lazy"
+                allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"
+                sandbox="allow-scripts allow-same-origin allow-popups">
+                <p>Your browser does not support iframes. Please visit our<a href="https://www.google.com/maps/place/ITonlinelearning/@51.3505943,0.7109377,16.38z/data=!3m1!5s0x47d8d52dd4ecd24b:0x1abfb28dcdc2a74b!4m6!3m5!1s0x47df2b34bfee2f19:0x2f1c3afb6810c292!8m2!3d51.3499231!4d0.7137607!16s%2Fg%2F11f8hzmp19?entry=ttu&g_ep=EgoyMDI1MDIyNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">
+                    location page</a>
+                </p>
+            </iframe>
+            <p>This embedded content shows the location of <a href="https://www.itonlinelearning-academy.com">itonlinelearning</a></p>
+
+            <div class="iframe-controls">
+                <button onclick="reloadFrame()">Reload Content</button>
+                <button onclick="toggleFullscreen()">Fullscreen</button>
+            </div>
+
+            <script>
+                function reloadFrame() {
+                    const frame = document.querySelector('iframe');
+                    frame.src = frame.src;
+                }
+
+                function toggleFullscreen() {
+                    const frame = document.querySelector('iframe');
+                    if (frame.requestFullscreen) {
+                        frame.requestFullscreen();
+                    }
+                }
+            </script>
+        </section>
+
+
+
+    </main>
+
+    <aside></aside>
+
+    <footer>
+        <div class="footer-content">
+
+            <p>&copy; 2025 Elegant Yachting Tours. All rights reserved. </p>
+
+            <p class="footer-social">
+                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com"><i class="fab fa-twitter"></i></a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

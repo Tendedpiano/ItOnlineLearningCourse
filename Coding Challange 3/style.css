@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Top Section Styling */
+
+.top-section {
+    background-color:rgb(141, 141, 141);
+    padding: 25px;
+}
+
+.top-section nav {
+    display: flex;
+    justify-content: center;
+}
+
+.top-section ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #4d4d4d;
+}
+
+.top-section li {
+    display: flex;
+    padding: 0;
+}
+
+.top-section a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 20px;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 10px 20px;
+    line-height: 1.6;
+}
+
+.top-section a:hover {
+    color: #e6e6e6;
+    background-color: #4d4d4d;
+}
+
+/* Animation Section Styling */
+
+.animation-section {
+    display: flex;
+    margin-top: 40px;
+}
+
+.button-left {
+    position: relative;
+    width: 10%;
+    height: auto;
+}
+
+.show-prev {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titles
+{
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.title
+{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    display: none;
+    min-height: 100px;
+    max-height: 100px;
+}
+.active
+{
+    display: block;
+}
+
+.button-right {
+    position: relative;
+    width: 10%;
+    height: auto;
+}
+
+.show-next {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+/* Hero Section Styling */
+
+.hero-section {
+    background-color: #141414;
+    color: #4d4d4d;
+    padding: 60px;
+    display: flex;
+}
+
+.image-section {
+    width: 50%;
+    height: auto;
+}
+
+.image-section img {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    display: block;
+    padding: 30px;
+}
+
+.hero-text {
+    width: 50%;
+    height: auto;
+    display: block;
+    padding: 30px;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+    padding-bottom: 5px;
+    line-height: 1.6;
+}
+
+.hero-text h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+    line-height: 1.6;
+}
+
+.hero-text p {
+    font-size: 18px;
+    max-width: 80%;
+    line-height: 1.6;
+}
+
+/* Sponsor Section Styling */
+
+.sponsor-section {
+    background-color: rgb(189, 189, 189);
+    color: #4d4d4d;
+    padding: 60px;
+    display: block;
+    text-align: center;
+}
+
+.sponsor-text {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.sponsor-text h1 {
+    display: block;
+    font-size: 30px;
+    padding: 8px;
+    line-height: 1.6;
+}
+
+.sponsor-text h2 {
+    display: block;
+    font-size: 20px;
+    padding: 8px;
+    line-height: 1.6;
+}
+
+.sponsor-container {
+    max-width: 100%;
+    padding: 40px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+figure {
+    padding: 0;
+    margin: 12px;
+    position: relative;
+}
+
+/* Info Section Styling */
+
+.info-section {
+    display: flex;
+    background-color: rgb(141, 141, 141);
+    padding: 20px;
+    color: #4d4d4d;
+}
+.info-section h1 {
+    font-size: 30px;
+    color: #e6e6e6;
+    line-height: 1.6;
+}
+
+.info-section h2 {
+    font-size: 20px;
+    color: #4d4d4d;
+    line-height: 1.6;
+}
+
+.contact-section {
+    display: block;
+    width: 33%;
+    margin: 0;
+    padding: 30px 50px;
+}
+
+.contact-section textarea {
+    border: 3px solid #4d4d4d;
+    padding-left: 10px;
+    margin: 8px 0;
+    width: 300px;
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.contact-section button {
+    background-color: #5e5d5d;
+    border: 3px solid #4d4d4d;
+    color: #e6e6e6;
+    padding: 5px 10px;
+    line-height: 1.6;
+}
+
+.pages-section {
+    width: 33%;
+    display: block;
+    margin: 0;
+    padding: 30px 50px;
+}
+
+.pages-section ul {
+    font-size: 20px;
+}
+
+.pages-section li {
+    margin: 10px;
+}
+
+.pages-section a {
+    text-decoration: none;
+    color: #4d4d4d;
+    line-height: 1.6;
+    transition: color 0.3s;
+}
+
+.pages-section a:hover {
+    color: #e6e6e6
+}
+
+.details-section {
+    width: 33%;
+    display: block;
+    margin: 0;
+    padding: 30px 50px;
+}
+
+.logo-section {
+    height: 60%;
+    width: 60%;
+    margin: 20px;
+}
+
+.logo-section img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.details {
+    padding: 20px;
+    margin: 10px;
+}
+
+.details p {
+    color: #4d4d4d;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Footer Section Styling */
+
+footer {
+    display: block;
+    background-color: #4d4d4d;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-text {
+    color: #e6e6e6;
+    font-size: 20px;
+}

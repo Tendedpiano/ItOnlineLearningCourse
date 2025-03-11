@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#purchase">Purchase</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-form-section">
+            <form action="form-handler.php" method="post">
+                <div class="form-group">
+                    <label for="subject">Please select a topic related to your inquiry*</label><br>
+                    <select id="subject" name="subject" required>
+                        <option value="select">Please select a topic</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Technical Support</option>
+                        <option value="billing">Billing Support</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="firstname">First Name*</label><br>
+                    <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    minlength="2"
+                    required>
+                </div>
+
+                <div class="form-group-message">
+                    <label for="message">Message*</label><br>
+                    <textarea
+                    type="text"
+                    id="message"
+                    rows="3"
+                    cols="30"
+                    required></textarea>
+                </div>
+                <div class="dual-form-group">
+                    <div class="dual-form">
+                        <label for="lastname">Last Name*</label><br>
+                        <input
+                        type="text"
+                        id="lastname"
+                        name="lastname"
+                        minlength="2"
+                        required>
+                    </div>
+                    <div class="dual-form">
+                        <label for="email">Email*</label><br>
+                        <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        minlength="2"
+                        required>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="button-container">
+            <button>Submit</button>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#purchase">Purchase</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

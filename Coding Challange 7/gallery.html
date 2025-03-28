@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" charset="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery Practice</title>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li class="header-li"><a class="header-a" href="#home">Home</a></li>
+                <li class="header-li"><a class="header-a" href="#about">About</a></li>
+                <li class="header-li"><a class="header-a" href="#gallery">Gallery</a></li>
+                <li class="header-li"><a class="header-a" href="#featured">Featured</a></li>
+                <li class="header-li"><a class="header-a" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-gallery-container">
+        <div class="gallery-container">
+            <figure class="one">
+                <img src="images/gallery-1.jpg"
+                alt="A close-up photo of Mount Rushmore"
+                title="Mount Rushmore">
+            </figure>
+
+            <figure class="two">
+                <img src="images/gallery-2.jpg"
+                alt="A photo of the Taj Mahal"
+                title="Taj Mahal">
+            </figure>
+            
+            <figure class="three">
+                <img src="images/gallery-3.jpg"
+                alt="A greyscale image of a pyramid in Egypt"
+                title="Pyramid">
+            </figure>
+
+            <figure class="four">
+                <img src="images/gallery-4.jpg"
+                alt="A photo of an angel statue overlooking an open woods"
+                title="Angel statue">
+            </figure>
+
+            <figure class="five">
+                <img src="images/gallery-5.jpg"
+                alt="A photo of a large 3 legged building onh top of a hill"
+                title="3 legged building">
+            </figure>
+        </div>
+    </div>
+
+    <!-- Info Section -->
+    
+    <div class="info-section">
+        <div class="contact-section">
+            <h1>Contact Us</h1><br>
+            <h2>Send us a message</h2><br>
+
+            <form action="form-hander.php" method="post">
+                <textarea
+                type="text"
+                id="fullname"
+                rows="1"
+                cols="40"
+                placeholder="Full Name"></textarea><br>
+
+                <textarea
+                type="text"
+                id="email"
+                rows="1"
+                cols="40"
+                placeholder="Your Email"></textarea><br>
+
+                <textarea
+                id="message"
+                rows="4"
+                cols="40"
+                placeholder="Your Message"></textarea><br>
+
+                <button>Submit</button>
+            </form>
+        </div>
+
+        <div class="pages-section">
+            <h1>Sitemap</h1><br>
+            <h2>Here are our other pages</h2><br>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="details-section">
+            <div class="logo-section">
+                <img src="images/logo.jpeg">
+            </div>
+            <div class="details">
+                <p><i class="fa-solid fa-square-phone"></i> 08605553695</p>
+                <p><i class="fa-solid fa-envelope"></i> customerservice@companyname.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="footer-text">
+            <p>&copy; 2001. All rights reserved company name</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

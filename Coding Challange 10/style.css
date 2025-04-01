@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #242424;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Header Styling */
+
+.header-section {
+    display: flex;
+    background-color: #323232;
+    padding: 15px;
+    justify-content: center;
+}
+
+.title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color:#939393;
+    text-decoration: underline;
+}
+
+/* Top Styling */
+
+.top-container {
+    display: flex;
+    background-color: #323232;
+    padding: 20px;
+
+}
+
+.top-text {
+    color: #939393;
+    width: 50vw;
+    padding:25px;
+}
+
+.top-header {
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+}
+.top-para {
+    text-align: center;
+    font-size: 23px;
+    padding: 18px;
+    margin: 15px;
+}
+
+.top-button-container {
+    text-align: center;
+}
+
+.top-button {
+    font-size: 23px;
+    padding: 30px 90px;
+    margin: 20px;
+    border-radius: 25px;
+    color: #323232;
+    background-color: #939393;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.top-button:hover {
+    color: #939393;
+    background-color: #323232;
+}
+
+.top-image {
+    width: 50vw;
+}
+
+/* Advantage Section */
+
+.advantage-section {
+    background-color: #939393;
+    padding: 20px;
+}
+
+.advantage-text {
+    padding: 15px;
+    color: #323232;
+}
+
+.advantage-header {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.advantage-para {
+    text-align: center;
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+.advantage-images {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.advantage-1,
+.advantage-2,
+.advantage-3 {
+    padding: 8px;
+}
+
+.advantage-button-container {
+    text-align: center;
+}
+
+.advantage-button {
+    font-size: 23px;
+    padding: 30px 90px;
+    margin: 20px;
+    border-radius: 25px;
+    color: #939393;
+    background-color: #323232;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.advantage-button:hover {
+    color: #323232;
+    background-color: #939393;
+}
+
+/* Content Section */
+
+.content-section {
+    display: flex;
+    background-color: #323232;
+    color: #939393;
+}
+
+.content-text {
+    display: block;
+    width: 66vw;
+    padding: 10px;
+}
+
+.content-text-duo {
+    display: flex;
+}
+.content-text-1 {
+    width: 66vw;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-text-2,
+.content-text-3 {
+    width: 50vw;
+    padding: 10px;
+    text-align: center;
+}
+
+.content-heading {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.content-para {
+    font-size: 23px;
+    padding: 10px;
+}
+
+.content-image {
+    width: 33vw;
+    padding: 10px;
+}
+
+/* Features Styling */
+
+.features-section {
+    background-color: #939393;
+    padding: 20px;
+    display: flex;
+}
+
+.features-image-section {
+    padding: 20px;
+}
+
+.features-text {
+    padding: 20px;
+    color: #323232;
+}
+
+.features-heading {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.features-para {
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+}

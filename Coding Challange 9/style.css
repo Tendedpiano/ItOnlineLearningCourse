@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #575757;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header Styling */
+
+header {
+    background-color: #383838;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px;
+    margin-left: 40px;
+    padding: 15px 30px;
+    border: 3px solid #242424;
+    border-radius: 15px;
+    background-color: #858585;
+}
+
+.logo p {
+    font-size: 30px;
+}
+
+.header-nav {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-li {
+    padding: 15px;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.header-a {
+    color: #979797;
+    font-size: 25px;
+    text-decoration: none;
+    transition: font-style 0.3s, text-decoration 0.3s;
+}
+
+.header-a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.second-nav {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.second-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-li {
+    padding: 15px;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.second-a {
+    color: #979797;
+    font-size: 16px;
+    text-decoration: none;
+    transition: font-style 0.3s, text-decoration 0.3s;
+}
+
+.second-a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Filter Styling */
+
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bbb582;
+}
+
+.filter-section p {
+    font-size: 18px;
+    color: #505050;
+}
+
+/* Search Styling */
+
+.search-section {
+    margin: 15px;
+    overflow: hidden;
+}
+
+.search-section input {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    border: none;
+}
+
+.search-section button {
+    float: right;
+    padding: 10px 5px;
+    font-size: 18px;
+    border: none;
+    background-color: #e8e8e8;
+    color: #979797;
+    transition: color 0.3s, border 0.3s;
+}
+
+.search-section button:hover {
+    color: #2e2d2d;
+}
+
+/* Price Styling */
+
+.price-section {
+    display: flex;
+    margin: 15px;
+}
+
+.price-min {
+    margin: 0 30px;
+}
+
+.price-min  input {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    border: none;
+}
+
+.price-max {
+    margin: 0 30px;
+}
+
+.price-max  input {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    border: none;
+}
+
+/* Room Styling */
+
+.room-section {
+    display: flex;
+}
+
+.bed-num {
+    margin: 0 30px;
+}
+
+.bed-num  input {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    border: none;
+}
+
+.bath-num {
+    margin: 0 30px;
+}
+
+.bath-num  input {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    border: none;
+}
+
+/* Update Styling */
+
+.update-section {
+    margin: 15px;
+}
+
+.update-section button {
+    padding: 10px 5px;
+    font-size: 18px;
+    background-color: #f3f3f3;
+    color: #242424;
+    border-radius: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.update-section button:hover {
+    color: #f3f3f3;
+    background-color:#242424
+}
+
+/* Main Styling */
+
+.main-section {
+    display: flex;
+}
+
+/* Listing Styling */
+
+.listing-section {
+    background-color: #171717;
+    max-width: 40vw;
+    padding: 20px;
+}
+
+.property-listing {
+    display: flex;
+    margin: 10px ;
+}
+
+.property-image img{
+    margin: 6px;
+}
+
+.property-desc {
+    text-align: center;
+    padding: 6px;
+    color: #c2c2c2;
+}
+
+.property-desc h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    line-height: 1.3;
+}
+
+.property-desc p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/* Map Styling */
+
+.map-section {
+    max-width: 100vw;
+    max-height: 100vh;
+}
